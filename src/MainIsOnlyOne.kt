@@ -1,7 +1,4 @@
-import basic.CallJS
-import basic.EventExample
-import basic.createDIV
-import basic.innerHTML
+import basic.*
 
 // javascrip를 사용할 때는 프로젝트에서 main 함수는 오직 1개이어야 한다.
 fun main( args : Array<String>){
@@ -19,4 +16,7 @@ fun main( args : Array<String>){
 
     // 4. Event Example
     EventExample()
+
+    // 5. HTTP Example
+    httpRequestTest()
 }
